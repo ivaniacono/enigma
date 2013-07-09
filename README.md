@@ -14,10 +14,12 @@ WARNING: The developing is in progress, so using it for Production is not
 recomended.
 
 HOW TO GET IT
+=============
 
 `git clone https://github.com/ivaniacono/enigma.git`
 
 LICENSE
+=======
 
 ENIGMA is licensed under the Apache License, Version 2.0 (the "License");
 You may not use this library except in compliance with the License.
