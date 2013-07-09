@@ -18,7 +18,7 @@ recomended.
 
 Fetch the latest version of ENIGMA using git:
 
-‘git clone https://github.com/ivaniacono/enigma.git‘
+`git clone https://github.com/ivaniacono/enigma.git`
 
 
 # LICENSE
