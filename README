@@ -14,7 +14,7 @@ it will be tried again later. Each goal has a priority that can depend on the
 enviorment (for example a robot position), also one goal can be feasible or
 not in a moment (for example because there is an obstacle).
 
-WARNING: The developing is in progress, so using it for Production is not
+WARNING: The developing is in progress, so using it for production is not
 recomended.
 
 For comments and suggestions write to:
