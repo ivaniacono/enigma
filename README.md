@@ -13,13 +13,23 @@ not in a moment (for example because there is an obstacle).
 WARNING: The developing is in progress, so using it for Production is not
 recomended.
 
+<<<<<<< HEAD
 # HOW TO GET IT
+=======
+HOW TO GET IT
+=============
+>>>>>>> a957380e9ec0436bfb336da7e1dfbd784b324db1
 
 Fetch the latest version of ENIGMA using git:
 
 `git clone https://github.com/ivaniacono/enigma.git`
 
+<<<<<<< HEAD
 # LICENSE
+=======
+LICENSE
+=======
+>>>>>>> a957380e9ec0436bfb336da7e1dfbd784b324db1
 
 ENIGMA is licensed under the Apache License, Version 2.0 (the "License");
 You may not use this library except in compliance with the License.
