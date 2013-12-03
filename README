@@ -11,11 +11,11 @@ ENIGMA is a Goal Manager written in Erlang/OTP and can be used in autonomous
 systems like robots. It has the task of executing a set of goals ordered by
 priority and feasibility, if one goal is not feasible or its execution fails,
 it will be tried again later. Each goal has a priority that can depend on the
-enviorment (for example a robot position), also one goal can be feasible or
+environment (for example a robot position), also one goal can be feasible or
 not in a moment (for example because there is an obstacle).
 
 WARNING: The developing is in progress, so using it for production is not
-recomended.
+recommended.
 
 For comments and suggestions write to:
 Ivan Iacono <ivan.iacono@gmail.com>, Corrado Santoro <santoro@dmi.unict.it>

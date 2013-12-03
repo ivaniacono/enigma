@@ -44,7 +44,7 @@ stop(Goal) -> gen_server:cast(Goal#goal.id, stop).
 %% @doc Executes the feasibility function of the Goal.
 %% @end
 feasibility(Goal) ->
-    gen_server:call(Goal#goal.id, {feasibility, Goal#goal.type}).
+    gen_server:call(Goal#goal.id, {feasibility, Goal#goal.type}, infinity).
 
 %% @doc Resets the priority of the Goal.
 %% @end
@@ -54,12 +54,12 @@ reset_priority(Goal) ->
 %% @doc Executes the priority function of the Goal.
 %% @end
 priority(Goal) ->
-    gen_server:call(Goal#goal.id, {priority, Goal#goal.type}).
+    gen_server:call(Goal#goal.id, {priority, Goal#goal.type}, infinity).
 
 %% @doc Executes the Goal.
 %% @end
 execute(Goal) ->
-    gen_server:call(Goal#goal.id, {execute, Goal#goal.type}).
+    gen_server:call(Goal#goal.id, {execute, Goal#goal.type}, infinity).
 
 %% @doc Increments the counter of trials of the Goal.
 %% @end
